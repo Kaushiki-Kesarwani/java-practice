@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "limits": "c"
+    },
+    "java.debug.settings.onBuildFailureProceed": true
+}
