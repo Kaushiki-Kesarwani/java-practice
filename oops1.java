@@ -21,7 +21,7 @@ class Student{
     }
 
     // Student(){
-    //     System.out.println("i am constructor"); // non parameterized constructor
+    //     System.out.println("I am constructor"); // non parameterized constructor
     // }
 
    /*  Student(String name, int roll_num){ // parameterized constructor
