@@ -17,13 +17,13 @@ public class stack {
         public boolean isEmpty() {
             return head == null;
         }
-
+//push operation
         public void push(int data) {
             Node newNode = new Node(data);
             newNode.next = head;
             head = newNode;
         }
-
+//pop operation
         public int pop() {
             if (isEmpty()) {
                 return -1;
@@ -32,7 +32,7 @@ public class stack {
             head = head.next;
             return top;
         }
-
+//peek operation
         public int peek() {
             if (isEmpty()) {
                 return -1;
