@@ -51,9 +51,9 @@ public class stack {
         s.push(5);
         s.push(8);
 
-        System.out.println(s.peek()); // 4
-        System.out.println(s.pop());  // 4
-        System.out.println(s.peek()); // 2
+        System.out.println(s.peek()); // 8
+        System.out.println(s.pop());  // 8
+        System.out.println(s.peek()); // 5
 
     }
 }
