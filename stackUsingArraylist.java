@@ -46,6 +46,6 @@ public class stackUsingArraylist {
             stack.remove();
          
         }
-                   System.out.println(stack.peek());
+         System.out.println(stack.peek());
     }
 }
