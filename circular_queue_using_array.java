@@ -48,7 +48,7 @@ public class circular_queue_using_array {
             return res;
         }
 
-        //peek
+        //peek or top
         public static int peek(){
              if(isEmpty()){
                 return -1;
